@@ -1,0 +1,145 @@
+/* Reglas por defecto */
+
+* {
+    box-sizing: border-box;
+    /* font */
+    font-family: "Averta CY", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#section-1 {
+    width: 100%;
+    float: left;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#section-1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 30px 30px;
+}
+
+.section-1 h1 {
+    font-size: 150px;
+}
+
+.section-1 i {
+    font-size: 200px;
+}
+
+.section-2 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 30px;
+}
+
+.section-2 h1 {
+    font-size: 40px;
+    color: rgb(34, 148, 148);
+}
+
+#section-3 {
+    width: 100%;
+    float: left;
+    padding-top: 70px;
+    padding: 50px 200px;
+}
+
+#section-4 {
+    width: 100%;
+    float: left;
+    padding: 50px 200px;
+}
+
+#section-5 {
+    width: 100%;
+    float: left;
+    padding: 50px 200px;
+}
+
+#section-6 {
+    padding: 200px;
+}
+
+
+#section-7 {
+    width: 100%;
+    float: left;
+    padding: 50px 200px;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+    padding: 0px 30px;
+}
+
+.column-2 h1 {
+    font-size: 40px;
+    color: rgb(34, 148, 148);
+}
+
+.column-2 p {
+    font-size: 25px;
+}
+
+.column-2 li {
+    font-size: 25px;    
+
+    @media screen and (max-width: 1000px) {
+        /*column-2*/
+        .column-2 {
+            width: 100%;
+            float: left;
+        }
+        .column-2 h3 {
+            font-size: 20px;
+            color: rgb(34, 148, 148);
+        }
+        .column-2 p {
+            font-size: 15px;
+        }
+        .column-2 li {
+            font-size: 15px;
+        }
+        /*section-1*/
+        #section-1 {
+            font-size: 10px;
+            text-align: center;
+            padding: 130px 30px;
+        }
+        .section-1 h1 {
+            font-size: 70px;
+            padding-top: 170px;
+        }
+        .section-1 i {
+            font-size: 180px;
+            padding-bottom: 170px;
+        }
+        /*section-2*/
+        .section-2 {
+            width: 100%;
+            float: left;
+            text-align: center;
+            padding: 30px;
+        }
+        .section-2 h3 {
+            font-size: 20px;
+            color: rgb(34, 148, 148);
+        }
+        .section-2 iframe {
+            width: 510px;
+            height: 255px;
+        }
+        img {
+            width: 390px;
+            height: 140px;
+        }
+    }
